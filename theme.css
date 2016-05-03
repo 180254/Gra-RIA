@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    background-color: #2C3E44;
+}
+
+#container {
+    display: inline-block;
+    width: 850px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+#header {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #B4C22C;
+    width: 100%;
+    display: table;
+}
+
+#header > h1 {
+    font-size: 1.7em;
+    text-align: center;
+    color: rgba(255, 242, 246, 1);
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.65);
+}
+
+#results {
+    margin-top: 50px;
+    background-color: rgb(89, 190, 30);
+    padding: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#results > h2 {
+    font-size: 1.3em;
+}
+
+#results > ul {
+    list-style-type: decimal;
+}
+
+#results > ul > li {
+    font-size: 1.1em;
+}
+
+#start {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn {
+    color: #ffffff;
+    font-size: 20px;
+    background: #C7511D;
+    padding: 10px 40px 10px 40px;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.65);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+#game {
+    margin-top: 10px;
+}
+
+#game > p {
+    padding-left: 50px;
+    color: rgba(145, 255, 201, 0.65);
+}
+
+#game > p > a {
+    color: rgba(0, 226, 115, 0.65)
+}
+
+#game > table {
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#game td {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+#game td.used {
+    background-color: #B4C22C;
+}
+
+#game td.on {
+    background-color: #24AAB4;
+}
+
+.hidden {
+    display: none;
+}

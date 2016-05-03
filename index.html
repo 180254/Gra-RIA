@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl">
+    <meta charset="UTF-8">
+    <title>gra RIA</title>
+
+    <!-- own css -->
+    <link href="theme.css" rel="stylesheet" type="text/css"/>
+
+    <!-- jquery: http://jquery.com/-->
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" type="text/javascript"></script>
+
+    <!-- own js -->
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="container">
+
+    <div id="header">
+        <h1>gra węgry</h1>
+    </div>
+
+    <div id="start">
+        <a href="#" class="btn">START</a>
+    </div>
+
+    <div id="results">
+        <h2>Lista zwyciężców:</h2>
+        <ul>
+            <li>Brak rekordów</li>
+        </ul>
+    </div>
+
+    <div id="game" class="hidden">
+        <table></table>
+        <p>Czas gry: <span id="timer"></span><br/>
+            <a href="#" class="reset">Resetuj planszę</a><br/>
+            <a href="#" class="new">Nowa plansza</a><br/>
+            <a href="#" class="back">Powrót</a></p>
+    </div>
+</div>
+</body>
+</html>
