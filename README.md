@@ -1,3 +1,4 @@
+Taka, że niby gra. Gra węgry/Gra Ria/Coś.  
 Zasady: kliknięcie na pole zmienia kolor pola, które kliknięto, i pól sąsiadujących (bez przekątnych).  
   
 <sub>Gra nie ma wpisanych plansz na stałe - generuje za każdym razem inny zestaw.  
