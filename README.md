@@ -9,10 +9,10 @@ Raz gra będzie łatwiejsza, raz trudniejsza. Zawsze jednak rozwiązywalna.</sub
 Zapis kliknięc prowadzących do rozwiązania jest w postaci click(row,col).  
 Przykładowo click(5,1) informuje, że należy kliknąć punkt znajdujący się w 5-tym wierszu i 1-wszej kolumnie.</sub>  
   
-<sub>Istnieje możliwość sterowania rozmiarem planszy, ale tylko z poziomu kodu. Plik script.js:  
+<sub><b>Istnieje możliwość sterowania rozmiarem planszy</b>, ale tylko z poziomu kodu. Plik script.js:  
     var GameLevelSize = 5; // plansza NxN  
-    var GameLevelClicks = 5; // ilość kliknięć w losowanym rozwiązaniu  
-    var BoardGeneratorClickDistance = 3; // odległość pomiędzy losowymi kliknięciami</sub> 
+    var GameLevelClicks = 5; // liczba kliknięć wymagana do rozwiązania zagadki  
+    var BoardGeneratorClickDistance = 3; // odległość pomiędzy kolejnymi kliknięciami, podczas generania planszy</sub> 
   
 ![Gra-RIA](screenshot1.PNG?raw=true "Gra-RIA screenshot1")  
 ![Gra-RIA](screenshot2.PNG?raw=true "Gra-RIA screenshot2")  
