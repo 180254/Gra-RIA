@@ -1,6 +1,6 @@
 (function () {
     "use strict";
-    var DoSolvabilityTestsOnStart = true;
+    var DoSolvabilityTestsOnStart = false;
 
     var GameLevelSize = 5;
     var GameLevelClicks = 5;
