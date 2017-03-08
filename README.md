@@ -16,3 +16,5 @@ Przykładowo click(5,1) informuje, że należy kliknąć punkt znajdujący się 
   
 ![Gra-RIA](screenshot1.PNG?raw=true "Gra-RIA screenshot1")  
 ![Gra-RIA](screenshot2.PNG?raw=true "Gra-RIA screenshot2")  
+  
+How to run it? See run.txt.
